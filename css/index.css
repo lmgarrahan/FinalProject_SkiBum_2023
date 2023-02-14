@@ -1,0 +1,73 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #E7F7FF;
+}
+
+.navbar{
+    background-color: #293462;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.nav-link{
+    color:#FEB139 ;
+}
+
+.jumbotron {
+    background-image: url(../images/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#aboutUs{
+    background-color: #293462;
+    padding-top: 50px;
+  }
+
+#mountainImg{
+  width: 100%;
+  height:auto
+}
+.centerText{
+  text-align: center;
+  color: white;
+}
+
+.card{
+  background-color: #E7F7FF;
+  border: none;
+  align-items: center;
+}
+  
+
+  .card-text{
+    text-align: center;
+  }
+
+  .icon{
+    height: 150px;
+    width: 150px;
+  }
+
+  .sectionHeading{
+    color: #FEB139;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .container-fluid{
+    flex-direction: row;
+  }
+
+  .howTo{
+    padding-top: 50px;
+  }
+
+  .howTo{
+    flex-direction: row;
+  }
