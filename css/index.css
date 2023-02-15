@@ -64,10 +64,53 @@ body{
     flex-direction: row;
   }
 
-  .howTo{
-    padding-top: 50px;
-  }
 
   .howTo{
+       padding-top: 50px;
     flex-direction: row;
   }
+
+  .carHT{
+    height: 100px;
+    width: 50px;
+  } 
+
+
+.card-columns{
+    flex-direction: row;
+  }
+
+  .card-body{
+    align-items: center;
+  }
+  .card-title{
+    text-align: center;
+    color: #FEB139;
+    font-weight: 800;
+  }
+
+  .card-text{
+    text-align: center;
+  }
+
+  .card-img-bottom{
+    width: 100x;
+    height: 150x;
+  }
+
+  .card-img-top{
+    width: 100x;
+    height: 150x;
+  }
+
+
+
+.footer{
+  background-image: url(../images/Footer.png);
+  width: 100%;
+} 
+
+.row Footer{
+
+
+}
