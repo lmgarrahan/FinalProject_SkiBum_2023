@@ -67,7 +67,7 @@
     </section>
 
     <!---ABOUT US- APP OVERVIEW-->
-    <section id="aboutUs">
+    <section class="aboutUs">
         <div id="row" class="flex container">
             <div class="flex-item centerText sectionHeading">
                 <h1> Our Mission</h1>
@@ -125,60 +125,61 @@
 
     <!---HOW IT WORKS SCREENS-->
     <section>
-        <div id="row" class="flex container howTo">
-            <div class="flex-item centerText sectionHeading">
-                <h1> How to SkiBum</h1>
-            </div>
-        </div>
         <!---COL 1-->
-        <div id="row" class="flex container">
-            <div id="column" class="flex container">
-                <div class="row image">
-                    <img src="./images/Rectangle 161.png" alt="">
+        <div class="container-fluid content">
+            <h1 class="sectionHeading">How to SkiBum</h1>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Step 1</h5>
+                            <p class="card-text">Create an Account, use your ski pass credentials to more easily find
+                                carpools</p>
+                            <img src="images/iPhone 14.png" class="card-img-bottom" alt="...">
+                        </div>
+                    </div>
                 </div>
-                <div id="row subHeader">
-                    <h3>Step 1</h3>
-                </div>
-                <div id="row pText">
-                    <p>Create an Account, use your ski pass credentials to more easily find carpools</p>
-                </div>
-            </div>
-            <!---COL 2-->
-            <div id="column" class="flex container">
-                <div class="row image">
-                    <img src="./images/Rectangle 161.png" alt="">
-                </div>
-                <div id="row subHeader">
-                    <h3>Step 1</h3>
-                </div>
-                <div id="row pText">
-                    <p>Create an Account, use your ski pass credentials to more easily find carpools</p>
-                </div>
-            </div>
-            <!---COL 3-->
-            <div id="column" class="flex container">
-                <div class="row image">
-                    <img src="./images/Rectangle 161.png" alt="">
-                </div>
-                <div id="row subHeader">
-                    <h3>Step 1</h3>
-                </div>
-                <div id="row pText">
-                    <p>Create an Account, use your ski pass credentials to more easily find carpools</p>
-                </div>
-            </div>
+                <!-- End card 1 -->
 
-            <!---COL 4-->
-            <div id="column" class="flex container">
-                <div id="row image">
-                    <img src="./images/Rectangle 161.png" alt="">
+                <!-- Card 2 -->
+                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                    <div class="card">
+                        <img src="images/iPhone 15.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Step 2</h5>
+                            <p class="card-text">Select a Resort of Choice and preferred travel time.</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="row subHeader">
-                    <h3>Step 1</h3>
+                <!-- End card 2 -->
+
+                <!-- Card 3 -->
+                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Step 3</h5>
+                            <p class="card-text">Chose the carpool that works for you! Filter by ratings, available
+                                seats and experience level.</p>
+                            <img src="images/iPhone 16.png" class="card-img-bottom" alt="...">
+                        </div>
+                    </div>
                 </div>
-                <div id="row pText">
-                    <p>Create an Account, use your ski pass credentials to more easily find carpools</p>
+                <!-- End card 3 -->
+
+                <!-- Card 4 -->
+                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                    <div class="card">
+                        <img src="images/iPhone 17.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Step 4</h5>
+                            <p class="card-text">Head to your meetup location and hit the road!</p>
+
+                        </div>
+                    </div>
                 </div>
+
+                <!-- End card 4 -->
             </div>
         </div>
     </section>
@@ -186,29 +187,69 @@
 
     <!--- QR CODE & FORM-->
 
+    <section class="qrForm">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-6">
+                    <img class="QR" src="/images/QR Code.png">
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <h5>Create an account, download the app & get riding!</h5>
+                    </div>
+                    <div class="row input-group">
+                        <span class="input-group-text">First and last name</span>
+                        <input type="text" aria-label="First name" class="form-control">
+                        <input type="text" aria-label="Last name" class="form-control">
+                    </div>
+                    <div class="row mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-primary">submit</button>
+                    </div>
 
-    <!---FOOTER-->
-<!-- 
-    <section class="footer">
-        <div class="row Footer">
-            <ul class= "nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Download</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-            </ul>
+                </div>
+            </div>
         </div>
-        <div class="rowFooter"> -->
-
-
-            
 
     </section>
+
+
+
+
+    <!--- Footer-->
+    <section class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <a class="nav-link" href="#">About</a>
+                </div>
+                <div class="col">
+                    <a class="nav-link" href="#">Download</a>
+                </div>
+                <div class="col">
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class="download" src="/images/Android-App-Icon-Gray.png">
+                </div>
+                <div class="col-6">
+                    <img class="download" src="images/Apple-App-Icon-Gray.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="footerText">Copyright @ 2023</p>
+                </div>
+
+            </div>
+    </section>
+
 
 </body>
 
