@@ -23,6 +23,16 @@ body{
     align-items: center;
     justify-content: center;
   }
+
+.header{
+  text-align: start;
+  color: white;
+  font-weight:800;
+}
+
+.subheader{
+color: #FEB139;
+}
   
 .aboutUs{
     background-color: #293462;
